@@ -1,0 +1,5 @@
+Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+This a new file
+C:\SQL2022\Express_ENU
+
+C:\Program Files\Microsoft SQL Server\160\SSEI\Resources
