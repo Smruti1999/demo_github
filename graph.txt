@@ -1,0 +1,11 @@
+# Grouped bar plot of 'num_credits' and 'status'
+sns.countplot(x='loan', hue='y', data=data)
+plt.title('Count of num_credits and Status')
+plt.xlabel('num_credits')
+plt.ylabel('Count')
+plt.xticks(rotation=90)
+plt.legend(title='Status', loc='upper right')
+plt.show()
+
+# Grouped data of 'num_credits' and 'status'
+data['y'].groupby(data['loan']).count()
